@@ -72,7 +72,7 @@
                   class="rounded-full border-12 border-white shadow-lg overflow-hidden w-28 h-28 md:w-[260px] md:h-[260px] bg-pink-400 flex items-center justify-center mx-auto"
                 >
                   <img
-                    src="../assets/sunita.jpg"
+                    src="/sg.png"
                     alt="Profile"
                     class="object-cover w-24 h-24 md:w-[250px] md:h-[250px] rounded-full"
                   />
