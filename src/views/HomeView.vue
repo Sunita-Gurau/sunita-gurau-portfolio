@@ -97,8 +97,8 @@
               <div
                 class="flex flex-col sm:flex-row gap-3 sm:gap-6 mb-6 md:mb-8 justify-center md:justify-start"
               >
-                <button
-                  @click="scrollToProjects"
+                <RouterLink
+                  to="/projects"
                   class="bg-pink-500 text-white px-5 py-2 md:px-6 md:py-3 rounded-xl font-semibold shadow hover:bg-pink-700 transition flex items-center gap-2 justify-center"
                 >
                   See Projects
@@ -111,9 +111,9 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   >
-                    <path d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                    <path d="M5 12h14M13 5l7 7-7 7" />
                   </svg>
-                </button>
+                </RouterLink>
                 <a
                   href="/SunitaGurau-CV-SG.pdf"
                   target="_blank"
