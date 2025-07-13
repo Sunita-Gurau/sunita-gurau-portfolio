@@ -2,7 +2,7 @@
   <div class="min-h-screen">
     <!-- Hero Section -->
     <div
-      class="relative h-screen overflow-hidden flex flex-col items-center justify-start md:justify-center"
+      class="relative min-h-screen overflow-visible flex flex-col items-center justify-start md:justify-center"
     >
       <!-- Split Background -->
       <div class="absolute inset-0 flex">
@@ -16,7 +16,7 @@
       >
         <RouterLink
           to="/"
-          class="text-4xl md:text-5xl font-bold text-pink-600 flex items-center gap-2 hover:text-pink-700 transition-colors cursor-pointer"
+          class="text-2xl md:text-5xl font-bold text-pink-600 flex items-center gap-2 hover:text-pink-700 transition-colors cursor-pointer"
         >
           <span class="">SG</span>
         </RouterLink>
@@ -57,7 +57,9 @@
       </header>
 
       <!-- Overlay Card (Rectangle, only top-left and bottom-right rounded) -->
-      <main class="relative z-20 flex flex-col items-center w-full px-2 mt-2 md:mt-16">
+      <main
+        class="relative z-20 flex flex-col items-center w-full px-2 mt-2 md:mt-16 pb-8 md:pb-16"
+      >
         <div class="relative w-full max-w-4xl flex flex-col items-center">
           <!-- Card -->
           <div
