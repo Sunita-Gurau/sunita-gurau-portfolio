@@ -16,7 +16,7 @@
       >
         <RouterLink
           to="/"
-          class="text-2xl font-bold text-pink-600 flex items-center gap-2 hover:text-pink-700 transition-colors cursor-pointer"
+          class="text-4xl md:text-5xl font-bold text-pink-600 flex items-center gap-2 hover:text-pink-700 transition-colors cursor-pointer"
         >
           <span class="">SG</span>
         </RouterLink>
